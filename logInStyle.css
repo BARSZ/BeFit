@@ -1,0 +1,51 @@
+body{
+    color: white;
+    background-image: url("images/logInBackground.jpg");
+    margin: 90px;
+    text-align: center;
+    padding-right: 200px;
+}
+form{
+    margin: 20px;
+    display: inline-block;
+    backface-visibility: visible;
+}
+button{
+    width: 90px;
+    height: 25px;
+    margin: 5px;
+}
+button:hover {
+    position: relative;
+    background-color: darkgrey;
+}
+.logo{
+    padding: 8px;
+    width: 150px;
+    float: left;
+}
+.container2{
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.textbox1{
+    margin: 5px;
+}
+a{
+    color: white;
+}
+.donthaveacc{
+    margin-top: 20px;
+    background-color: black;
+    opacity: 0.5;
+    padding: 10px;
+    border-radius: 15px;
+}
+.buttonSubmit{
+    margin: 10px;
+}
+.logoutBody{
+    padding-right: 10px;
+}

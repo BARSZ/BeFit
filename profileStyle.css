@@ -1,0 +1,206 @@
+.profilePicture{
+    width: 50%;
+
+    float: right;
+    /*padding-right: 25px;*/
+    padding-top: 25px;
+    opacity: 0.9;
+    /*padding-left: 25px;*/
+    /*background-color: powderblue;*/
+}
+.columnProfile{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+.rowProfile::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.myProfileTitle{
+    color: white;
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    padding-top: 75px;
+    padding-left: 25px;
+    text-align: center;
+}
+.profileInfo{
+    color: white;
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 150%;
+    float: left;
+    width: 50%;
+    padding: 5px;
+    padding-left: 70px;
+    padding-top: 50px;
+    line-height: 150%;
+}
+.buttonExtendMembership{
+    margin: 0px;
+}
+.membershipInfo{
+    color: white;
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 150%;
+    float: left;
+    width: 50%;
+    padding: 5px;
+    padding-left: 70px;
+    padding-top: 20px;
+    line-height: 100%;
+}
+.membershipColumn{
+    padding-bottom: 50px;
+}
+.buttonSubmit{
+    margin: 10px;
+}
+.container .btn {
+    margin-top: 0px;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding-bottom: 50px;
+}
+.container .btn:hover {
+    background-color: black;
+    color: white;
+}
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: black;
+}
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    border: 3px solid #f1f1f1;
+    font-size: 66%;
+    line-height: 20px;
+    z-index: 9;
+}
+.form-container label{
+    color: white;
+    float: left;
+    padding: 0px;
+    margin-top: 10px;
+}
+.form-container input{
+    padding: 5px;
+    margin: 0px;
+}
+.radioButton{
+    float: left;
+    margin-top: 10px;
+}
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    /*padding: 10px;*/
+    /*margin: 5px 0 10px 0;*/
+    border: none;
+    background: #f1f1f1;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.form-container .btn {
+    background-color: rgb(69, 69, 69);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.form-container .cancel {
+    background-color: red;
+}
+.form-container .btn:hover{
+    background-color: #dddddd;
+    color: #1a1a1a;
+}
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+.scrollable{
+margin-right: 10px;
+}
+.SpaceBetweenScrollbar{
+    overflow-y: scroll;
+    height:300px;
+}
+.nonScrollable{
+
+}
+.radioButtonMem{
+    float: left;
+    margin-top: 10px;
+    border: 0px;
+    height: 100%;
+    width: 100%;
+}
+#yourChoice{
+    clear: both;
+    float: left;
+    margin: 10px;
+    margin-left: 0px;
+}
+#chosenMembership{
+    float: left;
+    font-size: 120%;
+    color: #999999;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 0px;
+}
+#addSpace{
+    margin-top: 30px;
+}
+#addBottomSpace{
+    margin-bottom: 10px;
+}
+
+.paragraphMemb{
+     float: left;
+     line-height: 0px;
+     margin-top: 5px;
+     margin-left: 2px;
+
+ }
+.paragraphWithoutClear{
+    float: left;
+    line-height: 0px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+#MembCredits{
+    color: gold;
+    font-weight: bold;
+}
+#listbox{
+    background-color: #1a1a1a;
+    padding-top: 10px;
+    padding-bottom: 10px    ;
+    padding-right: 40px;
+    color: white;
+    font-size: 90%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
