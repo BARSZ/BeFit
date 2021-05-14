@@ -39,6 +39,6 @@
     <p>BeFit Fitness & Spa is the largest<br> and most successful chain of fitness clubs in the Netherlands.<br> With its 5 consecutive annual Best Fitness Club honors,<br> 10 ultra modern locations, over 2 highly trained coaches<br> and tens of thousands of club members,<br> BeFit Fitness & Spa is a definite leader in the fitness and wellness industry.<br>
         But let's leave the numbers further and tell you what BeFit Fitness & Spa really is.</p>
 </div>
-<footer class="footer">All rights reserved (c) 2020 George Manev & Vasil Simeonov.</footer>
+<footer class="footer">All rights reserved (c) 2020 Vasil Simeonov.</footer>
 </body>
 </html>

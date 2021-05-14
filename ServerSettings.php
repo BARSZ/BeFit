@@ -1,6 +1,6 @@
 <?php
-$servername = "studmysql01.fhict.local";
+$servername = "localhost";
 $database = 'dbi426729';
-$username = "dbi426729";
-$password = "open";
+$username = "root";
+$password = "";
 ?>

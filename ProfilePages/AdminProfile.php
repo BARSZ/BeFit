@@ -77,7 +77,7 @@
         </div>
     </div>
 </div>
-<footer class="footer">All rights reserved (c) 2020 George Manev & Vasil Simeonov.</footer>
+<footer class="footer">All rights reserved (c) 2020 Vasil Simeonov.</footer>
 
 <script src="../JS%20Files/AdminProfile.js"></script>
 </body>

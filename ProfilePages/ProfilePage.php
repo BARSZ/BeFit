@@ -183,7 +183,7 @@
         </div>
     </div>
 </div>
-<footer class="footer">All rights reserved (c) 2020 George Manev & Vasil Simeonov.</footer>
+<footer class="footer">All rights reserved (c) 2020 Vasil Simeonov.</footer>
 <script src="../JS%20Files/ClientProfile.js"></script>
 </body>
 <?php
@@ -215,10 +215,10 @@ if (isset($_POST["btnConfirmMembership"])){
             $_SESSION["membershipExpires"] = date_format($dateM, 'Y-m-d');
             $_SESSION["credits"] = $calculateCredits;
             $_SESSION["membershipType"] = $newMembershipType;
-            $servername = "studmysql01.fhict.local";
+            $servername = "localhost";
             $database = 'dbi426729';
-            $username = "dbi426729";
-            $password = "open";
+            $username = "root";
+            $password = "";
 
             try {
                 $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
@@ -290,10 +290,10 @@ if (isset($_POST["topUpCredits"])){
     if($credits != ""){
         $_SESSION["credits"] = $credits;
     }
-    $servername = "studmysql01.fhict.local";
+    $servername = "localhost";
     $database = 'dbi426729';
-    $username = "dbi426729";
-    $password = "open";
+    $username = "root";
+    $password = "";
 
     try{
         $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
@@ -341,10 +341,10 @@ if(isset($_POST["editDetails"])){
         if($newGender != ""){
             $_SESSION["gender"] = $newGender;
         }
-        $servername = "studmysql01.fhict.local";
+        $servername = "localhost";
         $database = 'dbi426729';
-        $username = "dbi426729";
-        $password = "open";
+        $username = "root";
+        $password = "";
         try{
 
             $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);

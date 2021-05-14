@@ -2,10 +2,10 @@
 
 function GetUsernames()
 {
-    $servername = "studmysql01.fhict.local";
+    $servername = "localhost";
     $database = 'dbi426729';
-    $username = "dbi426729";
-    $password = "open";
+    $username = "root";
+    $password = "";
     $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
@@ -19,10 +19,10 @@ function GetUsernames()
 
 function DeleteUser($NameOfUser){
     try{
-        $servername = "studmysql01.fhict.local";
+        $servername = "localhost";
         $database = 'dbi426729';
-        $username = "dbi426729";
-        $password = "open";
+        $username = "root";
+        $password = "";
         $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 

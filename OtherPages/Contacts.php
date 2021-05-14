@@ -54,6 +54,6 @@
         <br>
     </div>
 </div>
-<footer class="footer" style="color: lavenderblush">All rights reserved (c) 2020 George Manev & Vasil Simeonov.</footer>
+<footer class="footer" style="color: lavenderblush">All rights reserved (c) 2020 ssVasil Simeonov.</footer>
 </body>
 </html>

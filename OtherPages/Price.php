@@ -51,6 +51,6 @@
         <li class="grey"><a href="Contacts.php" class="button">Sign Up</a></li>
     </ul>
 </div>
-<footer class="footer" style="color: lavenderblush">All rights reserved (c) 2020 George Manev & Vasil Simeonov.</footer>
+<footer class="footer" style="color: lavenderblush">All rights reserved (c) 2020 Vasil Simeonov.</footer>
 </body>
 </html>
